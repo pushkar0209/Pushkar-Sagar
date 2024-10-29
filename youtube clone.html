@@ -1,0 +1,444 @@
+<html>
+ <head>
+  <title>
+ YOUTUBE
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="stylesheet" href="buttons.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/> 
+ </head>
+ <style>
+ .youtube-button{
+  background-color: rgb(9, 9, 9);       
+  color: white;
+  height: 36px;
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bolder;
+  font-style:italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-size: larger;
+  font: bold; 
+  margin: 8px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+
+}
+</style>
+ <body class="bg-black text-white">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-1/6 bg-black p-4">
+    <div class="flex items-center mb-6">
+     <i class="fab fa-youtube text-red-600 text-3xl">
+     </i>
+     <button class="youtube-button">
+       <span class="text-white text-2xl font-bold ml-2">YOUTUBE</span>
+       <span class="text-xs text-gray-400 ml-1">
+        IN
+       </span>
+    </button>
+     <!-- <span class="text-white text-2xl font-bold ml-2">
+      YouTube
+     </span>
+     <span class="text-xs text-gray-400 ml-1">
+      IN
+     </span> -->
+    </div>
+    <div class="space-y-4">
+     <div class="flex items-center space-x-4">
+      <i class="fas fa-home text-xl">
+      </i>
+      <span>
+       <button> <a href="https://www.youtube.com/">Home</a></button>
+      </span>
+     </div>
+     <div class="flex items-center space-x-4">
+      <i class="fas fa-video text-xl">
+      </i>
+      <span>
+       <button><a href="https://www.youtube.com/shorts/">shorts</a></button>
+      </span>
+     </div>
+     <div class="flex items-center space-x-4">
+      <i class="fas fa-stream text-xl">
+      </i>
+      <span>
+       <button>Subscriptions</button>
+      </span>
+     </div>
+    </div>
+    <div class="mt-6">
+     <h2 class="text-gray-400 text-sm mb-2">
+      YOU
+     </h2>
+     <div class="space-y-4">
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-history text-xl">
+       </i>
+       <span>
+        History
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-list text-xl">
+       </i>
+       <span><button><a href="https://www.youtube.com/feed/playlists">playlists</a></button>
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-video text-xl">
+       </i>
+       <span>
+        Your videos
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-book text-xl">
+       </i>
+       <span>
+        Your courses
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-clock text-xl">
+       </i>
+       <span>
+        Watch later
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-thumbs-up text-xl">
+       </i>
+       <span>
+        Liked videos
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="mt-6">
+     <h2 class="text-gray-400 text-sm mb-2">
+      Subscriptions
+     </h2>
+     <div class="space-y-4">
+      <div class="flex items-center space-x-4">
+       <img alt="Creative Corner" class="rounded-full" height="24" src="https://storage.googleapis.com/a1aa/image/3CTZBqoe2gXsZiifpOcngqqPsjIS5DDoK8gUslehdUAYQ2VnA.jpg" width="24"/>
+       <span>
+        Creative Corner
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <img alt="TechBar" class="rounded-full" height="24" src="https://storage.googleapis.com/a1aa/image/AiqcTIzuD65lOpdrPkpeHEXafV7fPCq1fsEuze9eVvQ5Ayu6E.jpg" width="24"/>
+       <span>
+        TechBar
+       </span>
+      </div>
+      <div class="flex items-center space-x-4">
+       <img alt="Aye Jude" class="rounded-full" height="24" src="https://storage.googleapis.com/a1aa/image/vLQNSwieffBH3JEXTq2UnKLEWKKetfYDIqK7m4z8c8sxAZXdC.jpg" width="24"/>
+       <span>
+        Aye Jude
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Main Content -->
+   <div class="w-5/6 p-1">
+    <body class="bg-black">
+      <div class="flex items-center p-2">
+       <!-- Search Bar -->
+       <div class="flex items-center bg-gray-800 rounded-full w-full max-w-lg">
+        <input class="bg-transparent text-white px-4 py-2 rounded-l-full focus:outline-none w-full" placeholder="Search" type="text"/>
+        <button class="bg-gray-700 p-2 rounded-r-full">
+         <i class="fas fa-search text-white">
+         </i>
+        </button>
+       </div>
+       <!-- Microphone Icon -->
+       <button class="ml-4 bg-gray-700 p-2 rounded-full">
+        <i class="fas fa-microphone text-white">
+        </i>
+       </button>
+       <!-- Icons -->
+       <div class="flex items-center ml-auto space-x-4">
+        <button class="bg-gray-700 p-2 rounded-full">
+         <i class="fas fa-plus text-white">
+         </i>
+        </button>
+        <button class="relative bg-gray-700 p-2 rounded-full">
+         <i class="fas fa-bell text-white">
+         </i>
+         <span class="absolute top-0 right-0 bg-red-600 text-white text-xs rounded-full px-1">
+          9+
+         </span>
+        </button>
+        <img alt="User profile picture" class="rounded-full w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/pCPOCNPUnnq6FBrYOeENSaLdLjfmnyy9pQuKf8muH8xgEerOB.jpg" width="40"/>
+       </div>
+      </div>
+     </body>
+
+    <div class="flex items-center justify-between mb-4">
+     <div class="flex space-x-4">
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       All
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Gaming
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Music
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       T-Series
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Haunted houses
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Live
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Tamil Cinema
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Rockstar Games
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Feature Phones
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Electrical Engineering
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Mixes
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+       Arijit Singh
+      </button>
+      <button class="bg-gray-700 text-white px-4 py-2 rounded">
+         cars
+        </button>
+     </div>
+    
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="Google Cloud Ad" class="w-full rounded" height="180" src="https://storage.googleapis.com/a1aa/image/6h9kK4Gko9pjA56e66kuDY2HxYlSmDkSphduqZd1AtpDkd1JA.jpg" width="320"/>
+      <div class="mt-2">
+       <p class="text-gray-400 text-sm">
+        Sponsored · Google Cloud
+       </p>
+       <p class="text-white">
+        Reliable and high performance cloud services. Start your free trial today.
+       </p>
+       <div class="flex space-x-4 mt-2">
+        <button class="bg-blue-600 text-white px-4 py-2 rounded">
+         Watch
+        </button>
+        <button class="bg-gray-700 text-white px-4 py-2 rounded">
+         Learn more
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="SON OF SATYAMURTHY" class="w-full rounded" height="180" src="data:image/webp;base64,UklGRkoaAABXRUJQVlA4ID4aAADQbgCdASoBAY8APs1Yo00npSMiLXSMCPAZiWIAtoO5ay+NKNHlnyh9/eckTKpT5I4sum+J/kP7Y9TW2v/i+D/AXfXuLk9eVIz1OIf7abLVFd80HJEnFUuCPvTgnDCjTZvTJcIegcGpz0M8zzA467hG7lbDu38JZB9ThzK/BVQ7FF6inE22/8jaIVW6lTCA5FXyxYw87hZiLoCRQ2m1Pdc7mo5ai/ot8tK2iFD2/fB2uEF1AM5ki6jzcVOOFIuKptCkzN+hPfNVLxUXV0ruZL1cGZJ1Ia61tVrYKkO29L5DLEPvQ1ihzqM6Ci+UA1nZhF3q8gIFO1X+5moo/B5hbiBd+HCJlQvKjwpKfZmwGA3oc2JLvqABByY9BrvfyND889b+kRk129NmaAyvyuafhk5wnNbK1bizJEhXkV78B66W2ifrYc3T/G7eGYjm80BcAZI9u+CanCW6FSdpjZHaCtWKhMHYljLPyrg86uF00NhILIo4A56D1oC6ws1mfqvfpQ/AZNxXQxeKG0iV6E7EqDKHIEcr7xXF5WiNkVF3aJVuIcHUprrHq4YeD8epcwpUkXO8LIhgmHMJIblHnp22kZFdeQGIHvU6egrp++ZQa7xAclD+ce9EkI/wLGKs0nBF6WKo++KdJSFn7m8Cms2btthuCsuADG9pK78V4Hu39ChJOKvMkRNwrr63aLMneFspPPw2QZgy6FhVbJAvssMIL5RtLxUmk3WlUkkMS5wDHymqJ4GJrUqf/SVzJgMxOOfPu03JJ1lTpQJ9tktR/8ku+C7wnlCo4AeZUmReJfcFM+Ez542IaH6cMFCxi3lg6h3jklTgyry8tQN6pwVrh/+R0meiT3q8Dwgp4XKtk4j2wYcd4tEycRk/ZPvIE3mw+lRUo+wHPaE/OUM1kTIn/9Aj2vDMyyQIv4ywLA/hicPJMZmhTPIi5uXEZ9/kOecVv4J96JMxRdJt4Tc48vJPLsZnLpDy4GqsL4YhqGd++iLgh3BqbfLprfUmSuAcVu7i4v1fuWvkWV828gx8sBwGeBZTGBezgZQSjt0LRyMzydhPoKMQxSJDeHXvjxqptG1+TUQ0Um1Wi7cLopbDWt/zunAETI7VhTJC8hjIa02kR4gMz6dZXroln3BL9GEDZOc3fBCiMkv0+ABItItUW/kVpNEMcaeqhd929DQ4/y3LddqArXMAAP649ELNaEpkTVEtZck6LmANVBGDEqB7/6r7Pbq4WY+z7v4vtLyePBQGTEZlPCkZcxVFhVUnLoewB+Br8lwrTXiC5E/aZ/n1ZW8Joxeu1j/CDPtTRnvT0WuRlvmJVS9wjd3NW5DMZjUx37+XxXVE5RP8MbFBUr5a65VJHGy4/tkoB3fBsIFEQNAZDFlac31qGQF83UGtmUL25kV4wJhLhrWG0MzC2H1gf/Z2tSqOGB3g7Xnk9OQ25dCOyJcgpm2VtCoW3fVjJD5y5O+MDq5tANtcnvCcHY10GgZ82x9cVLaEunh/Tanq/I3HU70jHT+/3oHJ8efJCJomfYaJS2r5irlYrkTlxummjaXOM6An3OuWqkEDuBjrntnNyNvk/IyZu5nNBs0u5JOYWdWuxNHzSfmCy+mctqk0P+vP+GgOVqMcuYre3uJB55KaB1mpr3CeKH1u2BDScrxQ0yjnh4djcLo2xhla4O9Sq3+6Zl0DyE7DxOBkWJY44Oo/fAqYxxjGyzQd0ODMpY0jd0iIg/Ug7iSt6GFe/W6zmsm5pgHHDlD0wVx877fI0VNCfs5R46wzVLwREeuPbIoIA1BWXBoo4n6FH7DwAy7iUdNfj56cHdAQsMI3pSMwCXRAZEQxdIQpk0yfZSRpNj/LSRzmVGaztlyh5Pji4q0lFVdhZFTaZyq11xjKJMV6L3FQBr4B3bkXa209ZtXBvQZLRWH5IPYWwG0JiV+oVMEM0OoITBlmbVYkUMv/I6ydeve2XM6PSBBK+ww2QOPyb8nEdHVPcWXbZJHmhchlUcd0H8eb1xiIVEeoiVupiMkDRsIHIwwicFRjUUZbKZXs/KjpI/1cCaXgVo4/JxLzLrkyz0KfdL+YT+fa2kuO15nXNDUb3yNCRcXPzOfaGgzVn+6mT3p2+VhnCnbsjkU2aK6eZtcQKV8rrXhAqnVVermP+5iqxbSU47PFbFNYX7EV0ZKvRRoxG4gSG7yG4vHvNCsO0zg6y6EccniPD9eHld68rIHrGOsFeV8Ut/zaDQ8Hwhf8Rl7d0MdMiBEqrkdbZMsS9M8i5oqToyMlaU4Mt2DrvupqeKThbje4gj10LcvuQVbbmj2fZ14ADuctKjLWuU0gIIGC1FDtsghoNYYa6BF3cZE+/PGReMgRe8nStRlyzyXCkhrcJyNiOlEGAweXU4hWvzva6FadvDdnfUW5JPyw7/ggeRBeWo4RDrFjxIvppFDdurqjDdV0njFjwETLmVAVgdBwaHz0gxY5Letr7ivlWSeVJeL73Y3+D9CersJgTkxJBNZz5K7nrvRZYBrBXZ9KU0rAW/waXmzttKN6VJy1NBSpKggFV4XmmynOzFdMfvGTTZZi4NJEeptcF9GlxhW1nh9dsb5H1d2De1trexajxbH8R7c+Fpew9we1Tyazl802bIDHuFj5a4rOnd0nnDV+GeSSBcQ68uMM3UIWlnPkhKiwDmOt/on7J6dT+8mItQOad7d2K2P7P8WYLUUq0etFqqq/3KXckyr2DHMSFtR6Au2yzYhWQDKzjlhTpzYFpsSJo4/DqK5lUVpN0fKciMXtmt4L/BxpVKNPIw5YdUy/FQ3vIMgOT9ZXfb4eO7b2E3Ei6yocE6uw/6iaY3OjapTov9sZzmsCV3qFdKc6cH9Q5qO99tgUHPf9LnjGEqRJYXsu5WmwCugcRBCvkp/BbacxFyl/pr3EQbS4kggwPNNILbaqw4kVyCLQ4cXd4Jaq1CJl0tHHplgEJHDD/fmvUBIfdqjdVNQDPMZccKnxLZtm2JBiA3+75WoP5eSzJ42iB4n4dAcCDTEsO4+QaIW7WBeJn4/1QQEFlBFullvvqwfxGM6nzdSApUJoDgRyKSY1NN1fImnZiVDz4wfiNOIil8nLf0mu6unNthNdlislz78gkG832qx1LiPUr6YzJa2vKbY7ZlkR5BItl2lVzZftBZYpV20WYxMWVicEeQaUK3nJIABdNote2bQhB5qG5swMGwgOgt397uVionSM0MMgp7zTIfD5qoQkNLZLKJ9i1cecbWnHhNO3Y+YfLLYpI/e2BxXvJSAcOEyCZEkYSnyujC2MXlYHlejnWnOsCp3o0wSIgRe+X2LLOPWJwJB15uYOTZyuIiwhLx+a2OF8gnsKPX8ovpGUUJL5YoXjgWsqDFbt3tYOW3fbkAPNxfG6BWSXZAvFw8NMpGosdK4gstnEamV5cZVoQPaaUxrsQWnr4rW6hp3xMTOMkLfk4WebCOyrjfqqLJti6toYCQ5+NbYWGwAVjOqfN/zTOclnr9BBHriRBl90ikW62NrbT3/rJiy9vFsyRjnXDJfDgNw6AO1IRanQolz/FfzKfIOSycQZwO9AGZqPc/kOCuzkbYFU+zXNQp7CUSRPrDhOBNJ1gs4vIStO8gzBkpqZg5XG31K1qU5IBzHwLpEOC5wGndUIri/SrDfmwNc5ivpm2yiXbIHffW8/V/D3OUYqb15LiOvk9jRLIX6e47/2bcWt9SzWrKRwAyJ+0ONArExwHyleVjrRTUS9UtK3QHjQm4XfaU3VvCbnhoAroJXUXIzRUQXFc+tEwdkKopUulKYbBE7+pZF/7zB7P9FY9pybPYiiMrpxYBYi0popsCODODFTxE4IAU5RzezPKzEz6udcjvc//tzVbf5Ra9sa1JwWAusrpSIw2X/wopJcrccict8ovADUDHmpPYspv7j7TihOioWhDUaOVYr/t+6wzCkWBdk3MTyHxuA1G/KYp9XySTEed+4G5zhLVGxu5t0DWzfh0tkGPS09Oew/N2NsOvLq6wTD2IbT63k3xsDjVQiGj1JhyCuLumI0NLF5DVud4IYE7+0mwynALI0aegLgQXvSZDRJ/hTkj7iRGoLrlIE+fEXeB8jzlipjM+tESctuHhgty6gHmGtxc/Mg2dJ24u2KgpPvO33fl1F9pSBckPD2k7UF4k2f+UjQG576AMAjkK5wZkhp2Q13wEqTtu3YoAHEIYxu1PleX9xTAPJ5W8PHrwFufC7iNofrBLngGeyObbtQXUSI+VKsCNi1OHU9hrlJV+26RNetEWqV9kou+5klZ2Z9BLsLWoDuDclQmN49cLI2c6k/C2qSAArD2GSnCPBsHed5rDLF9d6OULrEso4Z8VsvCR+tjYHQ8AZAJHB/FqAMH3JNI7vEVG+MB+DAmjR5oOLVmm4XsqLzZ2SkvLAojJKqpscF8alOn3lefPvHEqPvcbOc06P7tGpVmGT9NYaYc2+KWCgq9D0mERDiW0yPmdFQPSoXMtfZkeV3J0RzfWyMSgr9t8rMfBlUjeEO+S99VjxJEZyp4rRSXXMIvYWT/C1v+MX2u/xmKh7IZbg4dwa6r3fuesMoF4kuZRjLxXmbcvCSg9LD9xpy7yUaGz0xzBWpqermHNbQrLhHSR2s48HTu7MPMe4EqXthXek/IXHHvvE/njttrPU/WUZ8ann5e7nI/ClDSFw7aoT6fD8gtGJ2qhtfZcBFgUO4MwhkptyKkKtSoGEqUqS2v32S9NcuaETQTnbyPtA/vTaeTUkyB1lYGJsb6S2arIHmDwbwsiwN3Td5LKNTXAf1D+NZmhNqczB3xOX7mUKLAYN0nlMd2SvM3LXLUdV+S/7jhYycCWsbI7UwZa6QBQYQFZ85aCbFZr+tu6vzsXeXtysZQEr7EgGnxL4xtrOTCjcihjdidFgPU1Fv+p5krmwfwCEN7s0DJJEdvfyom/BwIaEnNIE4X7eGSqlqkaKEKEEEboJgeFptboGPkj5sQVKJEveWPiA0+TSo5Q03ZDSVya1tTBwFpUO/U4plk6/P2nENotyM0gTpbN1GV+5IDgD/aDppVjxtaV60cMLIklbdMsiClJ5CGAqBtSTXy0FrcQ5yBHCq/+9XMiWBp0W/xe3LioDRFikyEpVQgwyN9bnCZSg+O20OCf2p9tSbLKUlL2wZASh0OrQq3bi7QG1QhHTr1m/qyJDpDY4iHU0p+cRUm+oH6KNaGDn5leBA6vpgsBjj3UrX21u4EuKagdWwYkr6Plj6ZfJ4KU+ahXIM1GiDOftzn8IPbhslB7pP2ew30g9VGwKY4E2LaXycqOfThME1e0Z3aKqjpPYsxz9OcN6tVCsqnRO9xw5U7oI7EeGY19mhUzW1/msUzlUlfjqSuLeuTvMfExawlbHwvK9dIRf81ySMAUkfY/9SYn3kWyxE5KRUKLC9jDyn33bmQChPzGOp7BTklWtiObVg9PMaqMcMsoMW3AHynF300mY5tEC4VG2qaedAPCpQNEmszLcmkxZe8tWWYgGAVv0sy480Ts29SJSIcZBK4ABnT597A/FVikcwGAtZ+1H5wSB9+qQrhsjew9kSP5BdclJdGY0mishIR5q8Hp+GEEVHFT3C6Yuz8FQIXe/aaZB6qzSOCNwWZTBk0WUC1Q4vfx3UMe+U4A6q5sWu5w11wFwQBc+7SSFiiQDeabKL+nS6MTz9Ir6HueF0Q0CIvRZ795gp8Jz6qoqq+NmZP9N2HlIuVAj3NQg0f4sLaQzSMg92NMRtyDceECzTVicPJER6IR1QBAnzkLfV37EZwtdsgAknpP+oxGea44U4gPebIR35BT8sVMVh8XbJ65khr/J4s1HqjxY3DFufL4PZjKsEXu77K6X7qd14kdOlqtttV/pHp9HXAaeBQ/lJJNJlEMn+OmwG2p9OJqoybOuEzuDh9xE5lRrGFEELR8ZAkT9okn70dYkFmWPm+7SdkyhcBNddKACPket8TbtxG+Xtyicnqsg5oKSp/DJ19EjRcx324H7LM8nFrgti2HJUxgoM0pJl2s+LiqplIBbQN6X04qx07LxqZgOKbImCKJznzLdRXnYjzhPN5s0DSdm3rpN/cTvJPOErKj25zTzg6bPXIaHaN7ZhNALW271kK2EIPRJDrM11lomiEp84gqvoFVc8Dizvm+JSaauTpiTrG0VxvEAy6NLsISNiQNR6mErActWWnJJnA8L5KKE23bgCadKJSPc5uT5bu5/werLmzaMvLKJ3hyw3TYWQ2BAepTNUant65Sw+mpJuBjw0THJKBLEAV8MXE56fE1x4P1sB2lplWk9a+qM0MSaxm3ago0+s6MpOuYJrHJhxo2SM3sjwscjJh5kjPK4K+fkpo00Td9LItGcqkqyAQRMjZsI8suAqvKDjMl9w+QwE2/aPpBpgSI+J5aH2uuqTxdiYoemNNMQmc7TSzhV02CvWa+M1uuW4zFbd3RZLoGFAzu2pErP1WXxcxoaPXuWWN/dDxV7Qh2tvYJXMbQfaf7C5Siav3TdT2V/kkoTniFqA7N811/VO34OIQ3levUAqgjyDdu/ZfEAEgo32QLQOX2s4U20fKtIopnvHNL2tCPgU7zC97/mEU31u4xTGo7VgpaVDkhGJrZBm9ueKyRQLWY1np/jLxkKOjO+HcS2Ft3KOIclVzqgjbsX7shBXGvUn80Y3/oUCf+BNNIqIOKFMhR2NCAvZH2toIQUG0MT938rW2zpkXevfTGOjrp0VC7m4YmMAFMh9u2PS9NCDSef4ZuFr/GRjqsgHtcZhdw+awP7L3X+VyJapnhCk+n9Bxdq0JWXxunjvizW3lF6kQmh8abAV6QvlcyVgFjpkiPYMRDB0FnjMCHBa7ZvYsYzLsCS6aEH361mlj8H/oFvFyc+gMvdAONlPrhXMWoAJoYMNDBc9OpujCEi8Ylrv1gsKHv61MMTTxl4rw2oe/fLsOMBp2NHHXgzK4yKEZdZeIani1dlbP/zfIgDtA2iaTYGLBIA8VCE75YJCGnh3P+JXFPCvxjP+u7PtxCVld9dyzj69nk9LzLYse3AXiQo8mMCnVTDbpNLZc1rYWktOvYJ9iJA7FdAacx3eS2nx3WMruQfBXukvFzwfcy3udsGS/zzZBJTy5ksc5gvUiGn75bAfSfZvwHP+NHg5M9zLfl7FmpQFE+e+3X7T6/FrV64Hrw+T9nSL6qeiE9WUMCkPu51EsbdeMtw82friVW2wYbubSDY65qi5gYl3Mg/rVYfPFN1BtO44mOyrZlBFdBW3FlWv18dd4LBVwwuX7kXZ95azSJ79FAHt3O/IRe+01/b7/vtneDlebQJ9sHoUN6LeTxA3M8ACg2MeTLVMs3wfYH8bnb5wHbVz27KVIQTxFojVrped7sjY6f8ztRPu3n8t8+DhiCiZsWYEcZJl5rZ1yb37/9NdKBelM3cbJB26DlHrTZKr7GBY55dXYALMzKeJC0YEJLUW0KF9wssadDLRVibzu+FjPnab1F+IehxGLbgaQYnxLahb2UrCCZzaUKNE4aYDETz0ALAmTlIT5WYAd11j/1lS4C6jCP5DxvwldEsC8xrSpLAfx+7xIH73k2uqG20Mdb8oKAO/nqcE4UJn95n04F8NY7Xr16Nbg5vQwtqJhqF+zeAk9whyZjjFgT8a6lqB0k+DL/Ob7pFwMP4fTLIIE6tICvVKdmx0J2DaVGlwj3lzDV6vDdEGJ1Qlz2FcKEd0WIolQL3tf+6TxnoXJjg/SMHc+LWmnpWg4AOKjVkEkv9LgGj8tbvpBNENUpAnCoFw9Bmgh0WI4c/7vPTZd83QTxKI9Palp91tfsWnKSjyBHThC94jrQwPtXSq+0yrtNcrpm/glRY3uuK6eb5T1LejQ4JN554E+V4TXfDb5kyd2YHjaru2wceUqwWrRK+3D3IJu45kGOSzKE58p4fVDCavJ3UnCEAU67tgI71jBMdkShkv5off7cWHLV1lxc44xnCxEtIE6ya2/94K2PDuQd/Kx9YQA9tX4nSUQ8tRQH3zAl8aqGl84UcqGyT+CYvD4w0DJ2xWMWO9zR46fX6GjRulwZNNbIFwf4xVLpkYkCaCSqSoHSOM1RjKFI8JVoJxjdkR8H37IAM8vizsOzg3OGrZxILiNaomwRJSg/+ITT4/Z5LuVBbEgxVbTMBu4Bu0jtSsZ0clToxMDg2o2OZ37o2maU5ujpBmERFTsWQ0U6v0/3wEyWBWdmC9Px0+6EDn7/f9IHaCt4cMqGlqXwq4T0E/dfIwfmFX9oxldZSUjZnXeoPuFEHIO+wK9nAvFK6GdM1W1Wlr43CKiGWPQ+rBdjE86+X+6yeYtjlvtWOdX9+xia2Eb1nvwy/Ln098LgIXP3428seJxz0FKQ8Y4VeGA+UuwRDB7G/oy6pHk+Lt4j6hEs3UmLrdTOAWrQjvZvH/yry9L2/JNokRbsgH4C2xtyigmaPfV1HSllYBY0x0nn7AqBtZuVsD6PE2EP2t+pP8jgG7ubXsaxYoGbPdy3mzoeA2kWcjmCKniOckGKj3Xu/L91+FJ34OO6GLNjyxucTyWotTIN2qZxZ6QF4EsZ/25MutinQO9Xq91KMyPTEj1cFIyjCGBOHr+eGGLwNu5Fu15ppWO3x4Zaw7HTG/++Hqydri9s6t2eyso4O7hqdjWdWDOAx0ZaDwuVjwint8yIgE4yoai54+QrW/DuFuRqAC7Ejmq0DTaT41U9rsjneiqLGutZv9M30m9s1vwbenH1n+YQiLsg0s6wTYkSlWteaknzppAJtpBiyX5LJAWXX7MzkaMQwpTfGhXnrTRb9iG2X/sUdtCCIf3Df6uXns4krwdHTcboOpxuMaF5r9AKYp3qHAWNv5geIquTZVlHmsBUJOc59vkH6SWuD3yq55GexlTuPojE3sEGWr8/2AVc7aJWnWNU4COTX+LWY72Ywkc2eSC+DPMjVruSZpy1BEy0IeX1xQd80YfRcjSQKVvYybu/f3uIJiyFjR9dy3GGhSez8QuqEIwAAA" watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        Allu Arjun, Samantha Recent Blockbuster Telugu Full Movie | Nede Chudandi
+       </p>
+       <p class="text-gray-400 text-sm">
+        Nede Chudandi · 2.5M views · 3 years ago
+       </p>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded">
+      <img alt="GTA 5 Video" class="w-full rounded" height="180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDtoIAiZC5QTHvKawK5E5pRexfBUEKiJQoIA&s" Watch width="320"/>
+      <div class="mt-2">
+       <p class="text-white">
+        GTA 5 : MICHAEL GIFTING SPECIAL RARE BUGATTI TO LIBERTY PRESIDENT || BB GAMING
+       </p>
+       <p class="text-gray-400 text-sm">
+        BB GAMING · 26K views · 1 hour ago
+       </p>
+     
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://www.youtube.com/watch?v=y0jj5TnIBdo"
+         class="text-white text-sm">  Watch</a>
+       </button>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">  <a href="https://youtu.be/cNGjD0VG4R8?feature=shared"
+         class="text-white text-sm">  Watch Later</a>
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
