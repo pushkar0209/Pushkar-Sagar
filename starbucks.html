@@ -1,0 +1,655 @@
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+   Starbucks
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body{
+        background-image: url("thumbnails/pexels-christian-heitz-285904-842711.jpg");
+    }
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url('thumbnails/pexels-christian-heitz-285904-842711.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        /* .content {
+            color: white;
+            text-align: center;
+            padding: 50px;
+        } */
+        .header {
+            padding: 10px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .search-bar {
+            display: flex;
+            background-color: rgb(17, 0, 0);
+            align-items: center;
+            padding: 5px;
+            border-radius: 5px;
+            border-color: black;
+        }
+        .search-bar input {
+            border: none;
+            background: none;
+            outline: none;
+            padding: 5px;
+        }
+        .search-bar i {
+            color: rgb(249, 247, 247);
+        }
+        .main-content {
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .introducing {
+            background: linear-gradient(to right, #b3ffab, #12fff7);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .introducing img {
+            height: 50px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .category {
+            text-align: center;
+        }
+        .category img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .recommendations {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .recommendations .item {
+            display: inline-block;
+            margin: 10px;
+        }
+        .recommendations img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #067655;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer div {
+            width: 45%;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons i {
+            color: white;
+            font-size: 20px;
+        }
+  </style>
+ </head>
+ <body>
+    <div class="content"></div>
+    </div>
+  <div class="header">
+   <img alt="Starbucks logo" height="50" src="https://storage.googleapis.com/a1aa/image/t5PS3Md8YmrIHJTr1uqAIhzyPTnZW6iPRrHZymtee2Pbk4uTA.jpg" width="50"/>
+   <div class="nav">
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     Gift
+    </a>
+    <a href="#">
+     Orders
+    </a>
+    <a href="#">
+     Store
+    </a>
+   </div>
+   <div class="search-bar">
+    <input placeholder="search" type="text"/>
+    <i class="fas fa-search">
+    </i>
+   </div>
+   <i class="fas fa-user-circle">
+   </i>
+  </div>
+  <div class="main-content">
+   <div class="introducing">
+    <div>
+     <h2>
+      INTRODUCING
+     </h2>
+     <p>
+      Gift a starbucks
+     </p>
+     <p>
+      The festive season, we bring you the gift story from India
+     </p>
+     <p>
+      Upto 75% off
+     </p>
+    </div>
+    <img alt="Gift box" height="50" src="https://storage.googleapis.com/a1aa/image/aZUe2dlTt8RCUqeqYDTYjN0OKidb1eqEeuPBxsbuqHuiRi7OB.jpg" width="50"/>
+   </div>
+   <div class="categories">
+    <div class="category">
+     <img alt="Best sellers" height="100" src="https://storage.googleapis.com/a1aa/image/fzQ0O9ZyJfsVqk8OJWE1febCqS5GjejcibKRMXyb3X3OkE3dC.jpg" width="100"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Drinks" height="100" src="https://storage.googleapis.com/a1aa/image/6mg1wq4pZPbWM9BeOMF6ih5e2L3udeWxxRqUUgmoMn1zIxdnA.jpg" width="100"/>
+     <p>
+      Drinks
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Foods" height="100" src="https://storage.googleapis.com/a1aa/image/wbdfc5zIH1SubSYJ5KQOWWeCw0Zy6HUOYq3oHZwjdpVfIxdnA.jpg" width="100"/>
+     <p>
+      Foods
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Coffee" height="100" src="https://storage.googleapis.com/a1aa/image/3loPHW5Ni5JbFFKYippRFvfWF2XQS5b495ifhvaDDGgdk4uTA.jpg" width="100"/>
+     <p>
+      Coffee
+     </p>
+    </div>
+   </div>
+   <div class="recommendations">
+    <h3>
+     Barista Recommends
+    </h3>
+    <div class="item">
+     <img alt="Best seller coffee" height="150" src="https://storage.googleapis.com/a1aa/image/3T5CNG71Fd7bPReDTBgZOqMSpdjYxdyjgG9aI2cF8sUQSc3JA.jpg" width="200"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+    <div class="item">
+     <img alt="Best seller coffee" height="150" src="https://storage.googleapis.com/a1aa/image/3T5CNG71Fd7bPReDTBgZOqMSpdjYxdyjgG9aI2cF8sUQSc3JA.jpg" width="200"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+    <div class="item">
+     <img alt="Best seller coffee" height="150" src="https://storage.googleapis.com/a1aa/image/3T5CNG71Fd7bPReDTBgZOqMSpdjYxdyjgG9aI2cF8sUQSc3JA.jpg" width="200"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+   <div>
+    <h4>
+     About us
+    </h4>
+    <a href="#">
+     Our Heritage
+    </a>
+    <a href="#">
+     Our company
+    </a>
+   </div>
+   <div>
+    <h4>
+     Social media
+    </h4>
+    <a href="#">
+     INSTAGRAM
+    </a>
+    <a href="#">
+     FACEBOOK
+    </a>
+    <a href="#">
+     TWITTER
+    </a>
+    <div class="social-icons">
+     <i class="fab fa-instagram">
+     </i>
+     <i class="fab fa-facebook">
+     </i>
+     <i class="fab fa-twitter">
+     </i>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+ <head>
+  <title>
+   Starbucks
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #e0e0e0;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+        .search-bar input {
+            border: none;
+            background: none;
+            outline: none;
+            padding: 5px;
+        }
+        .search-bar i {
+            color: #888;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .banner {
+            background: linear-gradient(to right, #a8e063, #56ab2f);
+            color: #000;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .banner img {
+            height: 50px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .category {
+            text-align: center;
+        }
+        .category img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .recommendations {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+        }
+        .product {
+            text-align: center;
+        }
+        .product img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #004d40;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer div {
+            width: 45%;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons i {
+            color: #fff;
+            font-size: 20px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Starbucks logo" height="50" src="https://storage.googleapis.com/a1aa/image/bmMt6bNhqMKaI9Oz8w5mJZKqQMuGtVH5x79ob2BOlk1HQu7E.jpg" width="50"/>
+   <div class="nav">
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     Gift
+    </a>
+    <a href="#">
+     Orders
+    </a>
+    <a href="#">
+     Store
+    </a>
+   </div>
+   <div class="search-bar">
+    <input placeholder="search" type="text"/>
+    <i class="fas fa-search">
+    </i>
+   </div>
+   <i class="fas fa-user-circle">
+   </i>
+  </div>
+  <div class="main-content">
+   <div class="banner">
+    <div>
+     <h2>
+      INTRODUCING
+     </h2>
+     <p>
+      Gift a starbucks
+     </p>
+     <p>
+      The festive season, we bring you the gift story from India
+     </p>
+     <p>
+      Upto 75% off
+     </p>
+    </div>
+    <img alt="Gift image" height="50" src="https://storage.googleapis.com/a1aa/image/WkOM9lVplyLeYKp91XIKNKSpmx3ie5cHNZ47fUxkfVgSCk7OB.jpg" width="50"/>
+   </div>
+   <div class="categories">
+    <div class="category">
+     <img alt="Best sellers image" height="100" src="https://storage.googleapis.com/a1aa/image/RQvFQvSCH4YoItmgJZXEOEvw2GA6NowsQxNmLsctFklJQu7E.jpg" width="100"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Drinks image" height="100" src="https://storage.googleapis.com/a1aa/image/cQyEnZ4E62pmNpnPXwPT1EClEeN6HJuM6H02ZPBFeVf9AydnA.jpg" width="100"/>
+     <p>
+      Drinks
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Foods image" height="100" src="https://storage.googleapis.com/a1aa/image/epMarMbrPv3FPqLikFUr1v8hfplyf1mJ59HGsUheH1cDCk7OB.jpg" width="100"/>
+     <p>
+      Foods
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Coffee image" height="100" src="https://storage.googleapis.com/a1aa/image/8mJ3ShZwnf26XK4U4jy9gOxFivt6Y7w1wDhDjJKJGgxRgc3JA.jpg" width="100"/>
+     <p>
+      Coffee
+     </p>
+    </div>
+   </div>
+   <div class="recommendations">
+    <h3>
+     Barista Recommends
+    </h3>
+   </div>
+   <div class="products">
+    <div class="product">
+     <img alt="Best sellers product image" height="150" src="https://storage.googleapis.com/a1aa/image/1mrNFemW01SdHiHz0Gu0M3Pf7GTD9Sew3SZjta6oyEOFBydnA.jpg" width="200"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+    <div class="product">
+     <img alt="Best sellers product image" height="150" src="https://storage.googleapis.com/a1aa/image/1mrNFemW01SdHiHz0Gu0M3Pf7GTD9Sew3SZjta6oyEOFBydnA.jpg" width="200"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+    <div class="product">
+     <img alt="Best sellers product image" height="150" src="https://storage.googleapis.com/a1aa/image/1mrNFemW01SdHiHz0Gu0M3Pf7GTD9Sew3SZjta6oyEOFBydnA.jpg" width="200"/>
+     <p>
+      Best sellers
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+   <div>
+    <img alt="Starbucks logo" height="50" src="https://storage.googleapis.com/a1aa/image/bmMt6bNhqMKaI9Oz8w5mJZKqQMuGtVH5x79ob2BOlk1HQu7E.jpg" width="50"/>
+    <a href="#">
+     About us
+    </a>
+    <a href="#">
+     Our Heritage
+    </a>
+    <a href="#">
+     Our company
+    </a>
+   </div>
+   <div>
+    <h3>
+     Social media
+    </h3>
+    <a href="#">
+     INSTAGRAM
+    </a>
+    <a href="#">
+     FACEBOOK
+    </a>
+    <a href="#">
+     TWITTER
+    </a>
+    <div class="social-icons">
+     <i class="fab fa-instagram">
+     </i>
+     <i class="fab fa-facebook">
+     </i>
+     <i class="fab fa-twitter">
+     </i>
+    </div>
+   </div>
+  </div>
+ </body>
+</html> -->
+

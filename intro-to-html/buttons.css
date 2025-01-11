@@ -1,0 +1,112 @@
+.SUBSCRIBE-button{
+    background-color: red; 
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 8px;
+    transition: opacity 0.15s;
+}
+.SUBSCRIBE-button:hover{
+    opacity: 0.8;
+}
+.SUBSCRIBE-button:active{
+    opacity: 0.5; 
+
+}
+
+
+
+.join-button{
+    background-color: white;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    color: blue;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 8px;
+    transition: background-color 0.15s,
+    color 0.15s;
+
+}
+.join-button:hover{
+    background-color: blue;
+    color: white;
+}
+.join-button:active{
+    opacity: 0.7;
+}
+
+.tweet-button {
+    background-color: hsl(215, 100%, 50%);
+    color: white;
+    border: none; 
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15;
+}
+    
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.10);
+
+}
+.request-button{
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: 110px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    margin: 8px;
+}
+.request-button:hover{
+    opacity: 0.1;
+}
+.request-button:active{
+    opacity: 0.1;
+}
+.addtocart-button{
+    background-color: rgb(255,216,20);
+    color: black;
+    height: 48px;
+    width: 200px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    font-size: medium;
+    margin: 10px;
+
+}
+.signup-button{
+    background-color: rgb(46,164,79);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    margin-right: 8px;
+}
+.youtube-button{
+    background-color: red;       
+    color: white;
+    height: 36px;
+    width: 105px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}

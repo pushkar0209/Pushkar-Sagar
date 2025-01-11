@@ -1,0 +1,137 @@
+<style>
+    .sign-in-container {
+        border-radius: 15px;
+        background-color: #fff;
+        display: flex;
+        min-height: 135px;
+        width: 600px;
+        max-width: 100%;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 10px;
+    }
+
+    .google-icon {
+        aspect-ratio: 0.94;
+        object-fit: contain;
+        object-position: center;
+        width: 80px;
+        align-self: stretch;
+        margin: auto 0;
+    }
+
+    .sign-in-text {
+        align-self: stretch;
+        margin: auto 0;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    @media (max-width: 991px) {
+        .sign-in-container {
+            font-size: 40px;
+        }
+
+        .sign-in-text {
+            max-width: 100%;
+            font-size: 40px;
+        }
+    }
+</style>
+
+<section class="sign-in-section">
+    <form class="sign-in-container">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f940546cffd603b790ba94914bfc9b6079c3db6905a7a921c6e44cee42d29ed?placeholderIfAbsent=true&apiKey=038ccc530a8a4305b154162c4576b641" class="google-icon" alt="Google logo" />
+        <label for="google-sign-in" class="visually-hidden">Sign in with Google</label>
+        <button id="google-sign-in" class="sign-in-text">Sign in with Google</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+/* <body class="bg-black flex items-center justify-center h-screen">
+    <div class="flex items-center bg-gray-900 rounded-full p-2 w-1/2">
+        <input type="text" placeholder="Search" class="bg-transparent text-white placeholder-gray-500 focus:outline-none w-full px-4">
+        <button class="bg-gray-800 p-2 rounded-full">
+            <i class="fas fa-search text-white"></i>
+        </button>
+        <button class="bg-gray-800 p-2 rounded-full ml-2">
+            <i class="fas fa-microphone text-white"></i>
+        </button>
+    </div>
+</body> */
+<body class="bg-black flex items-center justify-center h-screen">
+    <div class="flex items-center bg-gray-900 rounded-full p-2 w-1/2">
+        <input type="text" placeholder="Search" class="bg-transparent text-white placeholder-gray-500 focus:outline-none w-full px-4">
+        <button class="bg-gray-800 p-2 rounded-full">
+            <i class="fas fa-search text-white"></i>
+        </button>
+        <button class="bg-gray-800 p-2 rounded-full ml-2">
+            <i class="fas fa-microphone text-white"></i>
+        </button>
+    </div>
+</body>
+/* <div class="flex items-center space-x-4">
+<input class="bg-gray-800 text-white px-15 py-2 rounded" placeholder="Search" type="text"/>
+<i class="fas fa-search text-xl">
+</i>
+<i class="fas fa-bell text-xl">
+</i>
+<img alt="User Avatar" class="rounded-full" height="32" src="https://media.licdn.com/dms/image/v2/D4D03AQFqjE4mDMC3FQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727677611240?e=1735776000&v=beta&t=RpFy2xQ0fec6ggp-YMCIXGIO9Sac__qrMk1pHVL-7go" width="32"/>
+</div> */
+
+
+
+/* <body class="bg-black">
+  <div class="flex items-center p-4">
+   <!-- Search Bar -->
+   <div class="flex items-center bg-gray-800 rounded-full w-full max-w-lg">
+    <input class="bg-transparent text-white px-4 py-2 rounded-l-full focus:outline-none w-full" placeholder="Search" type="text"/>
+    <button class="bg-gray-700 p-2 rounded-r-full">
+     <i class="fas fa-search text-white">
+     </i>
+    </button>
+   </div>
+   <!-- Microphone Icon -->
+   <button class="ml-4 bg-gray-700 p-2 rounded-full">
+    <i class="fas fa-microphone text-white">
+    </i>
+   </button>
+   <!-- Icons -->
+   <div class="flex items-center ml-auto space-x-4">
+    <button class="bg-gray-700 p-2 rounded-full">
+     <i class="fas fa-plus text-white">
+     </i>
+    </button>
+    <button class="relative bg-gray-700 p-2 rounded-full">
+     <i class="fas fa-bell text-white">
+     </i>
+     <span class="absolute top-0 right-0 bg-red-600 text-white text-xs rounded-full px-1">
+      9+
+     </span>
+    </button>
+    <img alt="User profile picture" class="rounded-full w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/pCPOCNPUnnq6FBrYOeENSaLdLjfmnyy9pQuKf8muH8xgEerOB.jpg" width="40"/>
+   </div>
+  </div>
+ </body> */
